@@ -238,6 +238,9 @@ body {
 .contact-form {
     margin-bottom: 30px;
 }
+.contact-form h4 {
+    margin-bottom: 0.5em;
+}
 
 .form {
     display: flex;
