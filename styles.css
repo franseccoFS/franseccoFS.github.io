@@ -183,8 +183,11 @@ body {
 #cv-jap .card-img {
     background-image: url(Página/cvFran.jpeg);
 }
-#css-project .card-img{
+#css-project .card-img {
     background-image: url(Página/ProjectSumary.jpeg);
+}
+#mejora-sitioweb .card-img {
+    background-image: url(Portafolio/mejorasitioweb/Mejorasitioweb.jpeg);
 }
 
 .card-title {
