@@ -90,6 +90,10 @@ body {
 
 
 .downloadButton {
+    display: grid;
+    place-items: center;
+    margin: auto;
+    margin-top: 2em;
     padding: 10px 20px;
     background-color: #afbde1;
     border: none;
@@ -100,6 +104,10 @@ body {
 }
 .downloadButton:hover {
     background-color: #fff;
+}
+
+.info-content a {
+    text-decoration: none;
 }
 
 .sobreMi {
