@@ -1,0 +1,101 @@
+body {
+    line-height: 1.6;
+    margin: 20px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#foto {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 40%;
+    
+}
+
+#nombre {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+h1, h2, h4 {
+    text-align: center;
+}
+
+#encabezado:hover,
+h2:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+
+.subtitulo {
+    margin-top: 30px;
+}
+
+
+.subtitulo + p {
+    margin-top: 10px;
+}
+
+#experiencia-table {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#educacion-table {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.social-list li a {
+    color: #0066cc;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form input[type="submit"] {
+    background-color: #0066cc;
+    color: #fff;
+    cursor: pointer;
+}
+

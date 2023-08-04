@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 40px;
+}
+h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+body {
+    font-family: 'Monserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+.wrapper,
+.contacto {
+    width: 100vw;
+    height: 100vh;
+    background-color: #191c32;
+    color: #fff;
+}
+.wrapper {
+    padding-top: 100px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    padding-bottom: 0%;
+    background-color: #191c32;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.brand {
+    margin-top: -5px;
+    margin-left: 20px;
+}
+
+.menu {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 20px 40px;
+}
+
+.menu a:hover {
+    background-color: #6e92e8;
+    color: #191c32;
+    transition: ease-in .3s;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img {
+    max-width: 300px;
+    border-radius: 10%;
+    border: 7px solid #000000;
+    margin-left: 40px;
+}
+
+
+.downloadButton {
+    padding: 10px 20px;
+    background-color: #afbde1;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+.downloadButton:hover {
+    background-color: #fff;
+}
+
+.sobreMi {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    background-color: #9ca7c2;
+    width: 100vw;
+    align-items: center;
+}
+
+.sobreMi img {
+    width: 100%;
+    grid-column: 1/4;
+}
+
+.sobreInfo {
+    grid-column: 4/10;
+    padding: 3em;
+    color: #191c32;
+}
+.sobreInfo h2 {
+    padding: 2em;
+}
+.sobreInfo p {
+    margin-bottom: 1em;
+}
+
+.portfolio {
+    background-color: #191c32;
+    color: #fff;
+    width: 100vw;
+
+
+}
+
+.portfolioHead {
+    width: 100vw;
+    padding: 5em;
+    padding-top: 100px;
+}
+.portfolioHead h2 {
+    font-size: 2.5em;
+}
+
+.portfolio .container {
+    width: 80vw;
+    height: 80wh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    background-color: #6e768b;
+    color: #191c32;
+    border-radius: 10px;
+    margin: 1em;
+}
+.card:hover {
+    
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.card-img {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    border-radius: 10px;
+}
+#cv-jap .card-img {
+    background-image: url(Página/cvFran.jpeg);
+}
+#css-project .card-img{
+    background-image: url(Página/ProjectSumary.jpeg);
+}
+
+.card-title {
+    padding: 20px;
+}
+
+.card-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-links a {
+    color: #191c32;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.card .detalles-proyecto {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+.card .detalles-proyecto a {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.boton-proyecto {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.contacto {
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+.contactHead {
+    width: 100vw;
+    padding: 5em;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.contactHead h2 {
+    font-size: 2.5em;
+}
+
+.contact-form {
+    margin-bottom: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-bottom: 2em;
+}
+
+.form input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.form textarea {
+    height: 150px;
+    background: none;
+    color: #fff;
+    padding: 1.5em;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border: none;
+    text-transform: uppercase;
+    background-color: #afbde1;
+    border-radius: 20px;
+}
+.btn-submit:hover {
+    background-color: #fff;
+}
+
+footer {
+    background-color: #9ca7c2;
+    color: #191c32;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    place-items: center;
+    margin: auto;
+}
+
+.footer-content h2 {
+    font-size: 3em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-content h4 {
+    font-size: 1.5em;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+.social-network i {
+    color: #191c32;
+    text-decoration: none;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.social-network {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+}

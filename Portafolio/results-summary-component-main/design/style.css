@@ -1,0 +1,129 @@
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.main {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cajaabsoluta{
+    width: fit-content;
+    border-radius: 10%;
+    box-shadow: 5px 5px 15px rgb(203, 203, 203);
+    margin: auto;
+}
+
+#cajaresultados{
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    text-align: center;
+    width: 300px;
+    border-radius: 10%;
+    color: white;                                                     
+}
+
+
+.Setenta-Seis{
+    display: flex;
+    justify-content: center;
+}
+#score{
+    padding: 1em;                    
+    color: white;
+    font-size: xx-large;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 100px;
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    place-items: center;
+    margin: auto;
+    
+    
+}
+.span{
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    font-size: small;
+    margin-bottom: 70px;
+} 
+
+
+#sumario {
+    text-align: center;
+    width: 300px;
+    align-items: center;
+}
+#score{
+    padding: 1em;                    
+    color: white;
+    font-size: xx-large;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 100px;
+    height: 100px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
+    place-items: center;
+    margin: auto;
+    
+    
+}
+
+#textoscore {
+    font-weight: lighter;
+}
+#reaction{
+    color: hsl(0, 100%, 67%);
+    background-color: rgba(253, 210, 210, 0.3);
+}
+
+
+#memory {
+    color: rgb(255, 225, 0);
+    background-color: rgb(255, 247, 187, 0.3);
+}
+#verbal{
+    color: hsl(166, 100%, 37%);
+    background-color: hsl(166, 100%, 87%, 0.3);
+}
+#visual{
+    color: hsl(234, 85%, 45%);
+    background-color: rgb(219, 221, 247, 0.3);
+}
+.sumarios{
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: auto;
+    width: 200px;
+    margin-top: 20px;
+    
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    text-align: left;
+    margin: 0% 8%;
+}
+
+#boton {
+    display: flex;
+    text-align: center;
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: rgb(66, 65, 65);
+    text-decoration: none;
+    color: white;
+}
