@@ -1,6 +1,10 @@
 body {
     line-height: 1.6;
     margin: 20px;
+    
+    display: grid;
+    place-items: center;
+    margin: auto;
 }
 
 main {
@@ -57,6 +61,12 @@ h2:hover {
     margin-top: 10px;
 }
 
+#experiencia {
+    margin-top: 40px;
+    margin-bottom: 20px;
+
+}
+
 #experiencia-table {
     text-align: center;
     margin: 20px auto;
@@ -99,3 +109,7 @@ h2:hover {
     cursor: pointer;
 }
 
+td, tr {
+    border: 1px solid;
+    margin: auto;
+}
